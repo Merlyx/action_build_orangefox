@@ -1,6 +1,6 @@
 {
   "twrp_url": "https://gitlab.com/OrangeFox/Manifest",
-  "twrp_branch": "twrp-9.0",
+  "twrp_branch": "fox_9.0",
   "git_username": "MTOSCentral",
   "git_email": "meowtechopensource@gmail.com",
   "use_own_dt": true,
@@ -8,7 +8,7 @@
   "dt_branch": "fox_9.0",
   "dt_remote": "gitlab",
   "dt_path": "device/xiaomi/clover",
-  "device_code": "clover",
+  "device_code": "android-9.0",
   "fix_product": true,
   "fix_misscom": true,
   "fix_busybox": false,
