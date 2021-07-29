@@ -6,7 +6,7 @@
   "use_own_dt": true,
   "dt_url": "Merlyx/pd1897_android10_device_tree",
   "dt_branch": "main",
-  "dt_remote": "gitlab",
+  "dt_remote": "github",
   "dt_path": "device/vivo/pd1986",
   "device_code": "pd1986",
   "fix_product": true,
