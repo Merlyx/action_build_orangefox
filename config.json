@@ -8,7 +8,7 @@
   "dt_branch": "main",
   "dt_remote": "github",
   "dt_path": "device/vivo/k6889v1_64",
-  "device_code": "pd1986",
+  "device_code": "k6889v1_64",
   "fix_product": true,
   "fix_misscom": false,
   "fix_busybox": false,
