@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     
     steps:
     - name: Checkout
@@ -91,7 +91,7 @@ jobs:
       run: |
         PATH=~/bin:$PATH
         cd workspace
-        repo sync -c -j$(nproc --all) --force-sync
+        repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
         ls -al
         
     - name: Fix cannot locate product
